@@ -21,3 +21,9 @@ mezclarLCanicas(canicasPorFrasco(2,4))
 mezclarLCanicas(canicasPorFrasco(1,3))
 mezclarLCanicas(canicasPorFrasco(3,1))
 
+distribucion(10,3,5)
+
+agrupaciones(6)
+
+agrupaciones(10)
+
