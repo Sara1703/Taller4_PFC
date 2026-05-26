@@ -46,12 +46,12 @@ package object Canicas {
 
 def agrupaciones(m: Int): List[List[Int]] = {
 
-  def subConjunto(r: Int, m:Int) : List[List[Int]] = {
+  def subConjunto(r: Int, min:Int) : List[List[Int]] = {
 
       if (r == 0) List(List())
       else {
           for {
-              agrupacion <- (m to r).toList
+              agrupacion <- (min to r).toList
               resto <- subConjunto(r - agrupacion, agrupacion + 1)
           } yield agrupacion :: resto
       }
